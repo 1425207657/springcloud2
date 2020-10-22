@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class CloudController {
-    @ResponseBody//返回字符串。
+    @ResponseBody//返回字符串。。
     @RequestMapping("hello")
     public String hello(){
         return "hello sptingcloud!";
